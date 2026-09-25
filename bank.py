@@ -1,3 +1,4 @@
+#use all the concepts of OOP programming to create a bank class with the following attributes: ID, number, ifsccode, minimumbalance. Create a method to display the details of the customer. Create n number of customers and display their details.
 class bank:
     def __init__(self, ID, number, ifsccode, minimumbalance):
         self.ID = ID
